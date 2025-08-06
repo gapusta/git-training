@@ -27,4 +27,7 @@ public class Main {
     public static double power(int x, int y) {
         return Math.pow(x, y);
     }
+    public static int and(int x, int y) {
+        return x & y;
+    }
 }
