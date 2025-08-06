@@ -6,6 +6,7 @@ public class Main {
         System.out.println(sub(333,222));
         System.out.println(mul(23,3));
         System.out.println(div(40, 10));
+        System.out.println(power(10,3));
     }
 
     public static int sum(int x, int y) {
@@ -23,7 +24,9 @@ public class Main {
     public static int div(int x, int y) {
         return x / y;
     }
-
+    public static double power(int x, int y) {
+        return Math.pow(x, y);
+    }
     public static int and(int x, int y) {
         return x & y;
     }
