@@ -23,4 +23,8 @@ public class Main {
     public static int div(int x, int y) {
         return x / y;
     }
+
+    public static int and(int x, int y) {
+        return x & y;
+    }
 }
